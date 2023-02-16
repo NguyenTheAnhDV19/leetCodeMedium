@@ -11,18 +11,17 @@ public:
                 else {
                     temp = numRows*2;
                 }
-                std::string temp_s;
+                std::string temp_string;
                 int count =0; count+=i;
                 for(int j=0;j<s.size();j++)
                 {
                     if(j == (count+ temp) || j ==count)
                     {
                         count +=temp;
-                        temp_s.push_back(s[j]);
+                        temp_string.push_back(s[j]);
                     }
                 }
-                result += temp_s;
-                std::cout<<temp_s<<std::endl;
+                result += temp_string;
             }
     return result;
     }
