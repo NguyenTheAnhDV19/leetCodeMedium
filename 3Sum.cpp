@@ -8,7 +8,7 @@ public:
         {
             for(int j =i+1;j<nums.size();j++)
             {
-                 for(int k=0;k<nums.size();k++)
+                 for(int k=j+1;k<nums.size();k++)
                  {
                      compare= nums[i]* nums[j]*nums[k];
                      if(nums[i]+ nums[j] == nums[k]*-1)
