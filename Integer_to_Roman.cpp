@@ -5,7 +5,7 @@ public:
         char arr_str[] = {'I','V','X','L','C','D','M'};
         std::string result;
 
-        //loop_ to find the index of number greater than num
+        //loop_ to find the index of number greater,lesser than num
         int bigger_index, smaller_index;
         for(int i=0;i<7;i++)
         {
