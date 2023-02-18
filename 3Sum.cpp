@@ -11,8 +11,7 @@ public:
                  for(int k=j+1;k<nums.size();k++)
                  {
                      compare= nums[i]* nums[j]*nums[k];
-                     if(nums[i]+ nums[j] == nums[k]*-1)
-                        if(i!=j&& i!=k && j!= k)
+                     if(nums[i]+ nums[j] == nums[k]*-1;
                              if (!std::count(v.begin(), v.end(), compare))
                             {
                                 std::cout<<nums[i]<<nums[j]<<nums[k]<<std::endl;
